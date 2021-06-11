@@ -4,7 +4,7 @@ SRC := $(shell find . -type d -name 'vendor' -prune -o -type f -name '*.go' -pri
 VERSION := $(shell sed -n -E 's/var voltVersion = "([^"]+)"/\1/p' subcmd/version.go)
 RELEASE_LDFLAGS := -s -w -extldflags '-static'
 RELEASE_OS := linux windows darwin
-RELEASE_ARCH := amd64 386
+RELEASE_ARCH := amd64
 
 DIST_DIR := dist
 BIN_DIR := bin
