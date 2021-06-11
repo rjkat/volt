@@ -11,9 +11,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/vim-volt/volt/internal/testutil"
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/pathutil"
+	"github.com/rjkat/volt/internal/testutil"
+	"github.com/rjkat/volt/lockjson"
+	"github.com/rjkat/volt/pathutil"
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"
@@ -463,10 +463,10 @@ func TestErrVoltGetNotFound(t *testing.T) {
 
 	// =============== run =============== //
 
-	out, err := testutil.RunVolt("get", "vim-volt/not_found")
+	out, err := testutil.RunVolt("get", "rjkat/not_found")
 	// (!A, !B)
 	testutil.FailExit(t, out, err)
-	reposPath := pathutil.ReposPath("github.com/vim-volt/not_found")
+	reposPath := pathutil.ReposPath("github.com/rjkat/not_found")
 
 	// (!C)
 	reposDir := reposPath.FullPath()

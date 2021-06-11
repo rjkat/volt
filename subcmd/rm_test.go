@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/vim-volt/volt/internal/testutil"
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/pathutil"
+	"github.com/rjkat/volt/internal/testutil"
+	"github.com/rjkat/volt/lockjson"
+	"github.com/rjkat/volt/pathutil"
 )
 
 // Checks:
@@ -488,7 +488,7 @@ func TestErrVoltRmNotFound(t *testing.T) {
 
 	// =============== run =============== //
 
-	out, err := testutil.RunVolt("rm", "vim-volt/not_found")
+	out, err := testutil.RunVolt("rm", "rjkat/not_found")
 	// (!A, !B)
 	testutil.FailExit(t, out, err)
 }
