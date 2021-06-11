@@ -7,8 +7,8 @@ import (
 	"os/user"
 	"runtime"
 
-	"github.com/vim-volt/volt/config"
-	"github.com/vim-volt/volt/logger"
+	"github.com/rjkat/volt/config"
+	"github.com/rjkat/volt/logger"
 )
 
 var cmdMap = make(map[string]Cmd)

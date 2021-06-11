@@ -15,15 +15,15 @@ import (
 
 	"gopkg.in/src-d/go-git.v4"
 
-	"github.com/vim-volt/volt/config"
-	"github.com/vim-volt/volt/fileutil"
-	"github.com/vim-volt/volt/gitutil"
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/logger"
-	"github.com/vim-volt/volt/pathutil"
-	"github.com/vim-volt/volt/plugconf"
-	"github.com/vim-volt/volt/subcmd/builder"
-	"github.com/vim-volt/volt/transaction"
+	"github.com/rjkat/volt/config"
+	"github.com/rjkat/volt/fileutil"
+	"github.com/rjkat/volt/gitutil"
+	"github.com/rjkat/volt/lockjson"
+	"github.com/rjkat/volt/logger"
+	"github.com/rjkat/volt/pathutil"
+	"github.com/rjkat/volt/plugconf"
+	"github.com/rjkat/volt/subcmd/builder"
+	"github.com/rjkat/volt/transaction"
 
 	multierror "github.com/hashicorp/go-multierror"
 )

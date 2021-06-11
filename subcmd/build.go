@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vim-volt/volt/subcmd/builder"
-	"github.com/vim-volt/volt/transaction"
+	"github.com/rjkat/volt/subcmd/builder"
+	"github.com/rjkat/volt/transaction"
 )
 
 func init() {

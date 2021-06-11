@@ -6,7 +6,7 @@ import (
 	"github.com/pkg/errors"
 	"os"
 
-	"github.com/vim-volt/volt/pathutil"
+	"github.com/rjkat/volt/pathutil"
 )
 
 func init() {

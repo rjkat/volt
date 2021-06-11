@@ -11,12 +11,12 @@ import (
 	"time"
 
 	"github.com/haya14busa/go-vimlparser"
-	"github.com/vim-volt/volt/config"
-	"github.com/vim-volt/volt/fileutil"
-	"github.com/vim-volt/volt/internal/testutil"
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/pathutil"
-	"github.com/vim-volt/volt/subcmd/builder"
+	"github.com/rjkat/volt/config"
+	"github.com/rjkat/volt/fileutil"
+	"github.com/rjkat/volt/internal/testutil"
+	"github.com/rjkat/volt/lockjson"
+	"github.com/rjkat/volt/pathutil"
+	"github.com/rjkat/volt/subcmd/builder"
 )
 
 // Checks:

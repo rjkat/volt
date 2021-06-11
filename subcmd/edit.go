@@ -7,10 +7,10 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/vim-volt/volt/config"
-	"github.com/vim-volt/volt/logger"
-	"github.com/vim-volt/volt/pathutil"
-	"github.com/vim-volt/volt/subcmd/builder"
+	"github.com/rjkat/volt/config"
+	"github.com/rjkat/volt/logger"
+	"github.com/rjkat/volt/pathutil"
+	"github.com/rjkat/volt/subcmd/builder"
 )
 
 func init() {
