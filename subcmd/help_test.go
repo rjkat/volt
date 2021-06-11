@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vim-volt/volt/internal/testutil"
+	"github.com/rjkat/volt/internal/testutil"
 )
 
 // 'volt help {cmd}' and 'volt {cmd} -help' output should be same

@@ -6,8 +6,8 @@ import (
 	"github.com/pkg/errors"
 	"os"
 
-	"github.com/vim-volt/volt/logger"
-	"github.com/vim-volt/volt/subcmd/migrate"
+	"github.com/rjkat/volt/logger"
+	"github.com/rjkat/volt/subcmd/migrate"
 )
 
 func init() {

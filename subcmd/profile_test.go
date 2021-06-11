@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vim-volt/volt/config"
-	"github.com/vim-volt/volt/internal/testutil"
-	"github.com/vim-volt/volt/lockjson"
-	"github.com/vim-volt/volt/pathutil"
+	"github.com/rjkat/volt/config"
+	"github.com/rjkat/volt/internal/testutil"
+	"github.com/rjkat/volt/lockjson"
+	"github.com/rjkat/volt/pathutil"
 )
 
 // Checks:

@@ -8,7 +8,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/vim-volt/volt/lockjson"
+	"github.com/rjkat/volt/lockjson"
 )
 
 func init() {

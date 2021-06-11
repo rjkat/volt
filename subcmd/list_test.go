@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/vim-volt/volt/internal/testutil"
-	"github.com/vim-volt/volt/lockjson"
+	"github.com/rjkat/volt/internal/testutil"
+	"github.com/rjkat/volt/lockjson"
 )
 
 // Checks:
